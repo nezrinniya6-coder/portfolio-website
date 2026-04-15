@@ -35,3 +35,11 @@ footer {
     color: white;
     padding: 10px;
 }
+.profile-img {
+    width: 120px;        /* controls size */
+    height: 120px;
+    border-radius: 50%;  /* makes it circle */
+    object-fit: cover;   /* keeps image nicely cropped */
+    display: block;
+    margin: 10px auto;   /* center it */
+}
