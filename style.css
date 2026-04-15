@@ -1,45 +1,46 @@
 body {
     font-family: Arial;
     margin: 0;
-    background-color: #f4f4f4;
+    background: #f0f2f5;
 }
 
-header {
-    background-color: #4CAF50;
+/* HERO SECTION */
+.hero {
+    background: linear-gradient(to right, #4CAF50, #2E7D32);
     color: white;
-    text-align: center;
-    padding: 20px;
+    padding: 40px;
 }
 
-nav {
-    text-align: center;
-    background: #333;
-    padding: 10px;
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
-nav a {
-    color: white;
-    margin: 10px;
-    text-decoration: none;
+/* PROFILE IMAGE */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
 }
 
-section {
-    padding: 20px;
-    margin: 10px;
+/* CARD DESIGN */
+.card {
     background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
+/* FOOTER */
 footer {
     text-align: center;
+    padding: 10px;
     background: #222;
     color: white;
-    padding: 10px;
-}
-.profile-img {
-    width: 60px;        /* controls size */
-    height: 70px;
-    border-radius: 50%;  /* makes it circle */
-    object-fit: cover;   /* keeps image nicely cropped */
-    display: block;
-    margin: 10px auto;   /* center it */
 }
