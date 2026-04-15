@@ -36,8 +36,8 @@ footer {
     padding: 10px;
 }
 .profile-img {
-    width: 120px;        /* controls size */
-    height: 120px;
+    width: 50px;        /* controls size */
+    height: 50px;
     border-radius: 50%;  /* makes it circle */
     object-fit: cover;   /* keeps image nicely cropped */
     display: block;
